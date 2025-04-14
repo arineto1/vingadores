@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+#menu{
+    border: solid 3px red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+}
+#menu a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 1s;
+}
+.herois{
+    border: solid 3px blue;
+    min-height: 100vh;
+}
+#homemferro{
+    background-color: #505860;
+}
+#homemferro img{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
